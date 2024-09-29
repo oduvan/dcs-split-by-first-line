@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dcs-split-by-first-line"
-version = "0.1"
+version = "0.1.1"
 description = "DCS - the most advanced admin editable setting"
 authors = ["oduvan <a.lyabah@checkio.org>"]
 keywords = ["Django", "settings"]
@@ -26,7 +26,7 @@ packages = [{include = "dcs_split_by_first_line"}]
 [tool.poetry.dependencies]
 python = ">=3.8"
 django = ">=3.2"
-django-content-settings = ">=0.21"
+django-content-settings = ">=0.22"
 
 
 [tool.poetry.group.test.dependencies]
